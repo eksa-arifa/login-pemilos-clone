@@ -1,0 +1,105 @@
+/* BY EKSA */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  background: #eeeeee;
+}
+.title{
+  font-size: 25px;
+  font-weight: 500;
+  color: #2b2b2b;
+  text-align: center;
+  margin-top: 5px;
+}
+.keterangan{
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 30px;
+  color: maroon;
+}
+.keterangan a{
+  text-decoration: none;
+}
+
+.kotak{
+  border-radius: 5px;
+  margin: 10px;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  padding: 3rem;
+}
+.kotak .judul{
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+}
+.kotak .input{
+  width: 100%;
+  margin: 10px 0;
+}
+.kotak .input label{
+  color: grey;
+  font-size: 14px;
+  font-weight: 600;
+}
+.kotak .input input{
+  width: 100%;
+  padding: 5px 10px;
+  color: grey;
+  border: 1px solid #cecece;
+  border-radius: 3px;
+  margin: 5px 0;
+  outline: none;
+}
+.kotak .input input::placeholder{
+  color: #cecece;
+}
+.kotak button{
+  width: 100%;
+  background: #c756e8;
+  color: #fff;
+  padding: 5px 0;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+  margin-top: 20px;
+}
+.kotak .error{
+  width: 100%;
+  background: #f36f6f;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 3px;
+  border: 1px solid red;
+  font-style: italic;
+  color: maroon;
+  text-decoration: underline;
+  display: none;
+}
+
+.bawah{
+  margin-top: 35px;
+  margin-bottom: 60px;
+}
+.bawah .bacodan{
+  text-align: center;
+  color: maroon;
+  font-weight: 600;
+}
+.bawah .kotak-2{
+  margin: 10px;
+  background: #fff;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  padding: 30px 15px;
+}
+.bawah .kotak-2 img{
+  width: 100%;
+  object-fit: cover;
+}

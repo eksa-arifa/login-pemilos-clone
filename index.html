@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css" />
+  <title>PEMILOS | clone static BY EKSA</title>
+</head>
+<body>
+  <div class="title">e-Pemilos</div>
+  <div class="keterangan">Halaman login Aplikasi Pemilihan Ketua OSIS <br /> CLONE by <a href="https://github.com/eksaarifa">Eksa arifa</a></div>
+  
+  <div class="kotak">
+    <div class="judul">Masuk Pemilos</div>
+    <div class="error">
+      Ini hanyalah web static,tidak benar-benar berfungsi
+    </div>
+    <div class="input">
+      <label for="nisn">NISN</label>
+      <input type="text" id="nisn" placeholder="NISN">
+    </div>
+    <div class="input">
+      <label for="nik">NIK</label>
+      <input type="text" id="nik" placeholder="NIK">
+    </div>
+    <button onclick="error()">Log In</button>
+   </div>
+   
+   
+   <div class="bawah">
+     <div class="bacodan">Aplikasi ini dibangun atas keisengan saya</div>
+     <div class="kotak-2">
+       <img src="gambar.png" />
+     </div>
+   </div>
+   
+   <script>
+     function error(){
+       document.querySelector('.kotak .error').style.display = "block";
+     }
+   </script>
+</body>
+</html>
